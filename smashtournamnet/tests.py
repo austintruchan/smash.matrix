@@ -32,4 +32,5 @@ class CharacterTestCase(TestCase):
 		link = Character.objects.get(name = "Link")
 		melee = Version.objects.get(name = "Melee")
 		self.assertEqual(melee, link.version)	
- 
+
+		

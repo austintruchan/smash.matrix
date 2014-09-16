@@ -22,5 +22,7 @@ class Character(models.Model):
 		return self.name
 
 class Tournament(models.Model):
+	name = models.CharField(max_length=200)
 	players = models.ManyToManyField(Player)
+	date_created = models.DateTimeField(default=timezone.now, editable=False)
 		
