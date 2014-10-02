@@ -1,7 +1,39 @@
-<h1>Welcome to smash.matrix!</h1>
+<!DOCTYPE html>
+<html lang="en">
+	<head></head>
+	<body>
 
-<p>Please log in: </p>
-<a href="/leaders">Log In</a>
-<br/>
-<p>Don't have an account?</p>
-<a href="#">Create New Account</a>
+	{% load staticfiles %}		
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+	<link rel="stylesheet" href="{% static 'smashtournament/css/smash.css' %}">
+
+	<div class="container">
+		<div class="header">
+			<ul class="nav nav-pills pull-right">
+				<li class="active">
+				    <a href="/">home</a>	
+				</li>
+				<li>
+					<a href="/leaders">login</a>	
+				</li>
+				<li>
+					<a href="#">create new account</a>	
+				</li>
+			</ul>	
+			<h3>smash.matrix!</h3>
+		</div>
+		<!-- content goes here -->
+		<div class="footer">
+			© 2014 Matrix Center for Digital Humanities & Social Sciences
+			<br/>
+			<a href="#">credits</a>
+			|
+			<a href="matrix.msu.edu">matrix.msu.edu</a>
+		</div>
+	</div>
+
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+	</body>
+</html>

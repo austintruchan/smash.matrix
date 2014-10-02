@@ -1,0 +1,44 @@
+html, body {
+	height: 100%;
+	background-color: #333;
+}
+
+body {
+	text-shadow: 0px 1px 3px rgba(0,0,0,0.5);
+	color: #FFF;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.header,
+.marketing,
+.footer {
+	padding-right: 15px;
+	padding-left: 15px;
+}
+
+.footer {
+	padding-top: 19px;
+	border-top: 1px solid #E5E5E5
+}
+
+.container {
+	max-width: 730px;
+}
+
+.header {
+	margin-bottom: 30px;
+	border-bottom: 1px solid #E5E5E5;
+}
+
+.header, .marketing, .footer {
+	padding-right: 0px;
+	padding-left: 0px;
+}
+
+.header h3 {
+	padding-bottom: 19px;
+	margin-top: 0;
+	margin-bottom: 0;
+	line-height: 40px;
+}
